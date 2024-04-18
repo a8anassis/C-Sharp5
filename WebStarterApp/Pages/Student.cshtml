@@ -1,0 +1,30 @@
+﻿@page
+@model WebStarterApp.Pages.StudentModel
+@{
+}
+
+<table class="table table-dark text-center w-75">
+    <thead>
+        <tr class="table-primary">
+            <th colspan="3">Coding Factory Students</th>
+        </tr>
+        <tr>
+            <th>Κωδικός</th>
+            <th>Όνομα</th>
+            <th>Επώνυμο</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.StudentReadOnlyDTOs is not null) 
+        {
+            @foreach (var student in Model.StudentReadOnlyDTOs) 
+            {
+                <tr>
+                    <td>@student.Id</td>
+                    <td>@student.Firstname</td>
+                    <td>@student.Lastname</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
