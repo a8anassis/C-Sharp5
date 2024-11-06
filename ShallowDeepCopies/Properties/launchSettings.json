@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ShallowDeepCopies": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:58079;http://localhost:58080"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "FiboWithArrayApp": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:58043;http://localhost:58044"
+    }
+  }
+}

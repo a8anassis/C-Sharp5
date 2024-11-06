@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "OptionalParamsApp": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:58067;http://localhost:58068"
+    }
+  }
+}

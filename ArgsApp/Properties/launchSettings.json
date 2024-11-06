@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ArgsApp": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:58057;http://localhost:58058"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "PowerApp": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:58027;http://localhost:58028"
+    }
+  }
+}

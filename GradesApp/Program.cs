@@ -20,14 +20,20 @@
                 Console.WriteLine("Error in read");
             }
 
+            if (gradesSum <= 0)
+            {
+                Environment.Exit(1);
+            }
+
             if (!int.TryParse(Console.ReadLine()!, out int gradesCount))
             {
                 Console.WriteLine("Error in read");
             }
 
-            if (gradesCount == 0)
+
+            if (gradesCount <= 0)
             {
-                Console.WriteLine("Grades count can not be zero");
+                Console.WriteLine("Grades count can not be negative or zero");
                 Environment.Exit(1);
             }
 
