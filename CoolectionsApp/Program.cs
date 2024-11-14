@@ -11,34 +11,38 @@
             var queue = new Queue<string>();
 
 
-            /* intList.AddRange(new[] { 1, 3, 2 });
-             intList.Add(4);
-             intList.Add(10);
-             intList.Insert(0, 5);
-             intList.Remove(10);
-             intList.RemoveAt(0);
+            intList.AddRange(new[] { 1, 3, 2 });
+            intList.Add(4);
+            intList.Add(10);
+            intList.Insert(0, 5);
+            intList.Remove(10);
+            intList.RemoveAt(0);
+            intList[0] = 3; intList[1] = 4;
 
-             intList.Sort();
-             intList.Reverse();
+            intList.Sort();
+            intList.Reverse();
 
-             foreach (int item in intList)
-             {
-                 Console.WriteLine(item);
-             }*/
+            foreach (int item in intList)
+            {
+                Console.WriteLine(item);
+            }
 
 
             // Linked List
-            /*var item1 = linkedList.AddFirst("Coding");
+            var item1 = linkedList.AddFirst("Coding");
             var item2 = linkedList.AddAfter(item1, "Factory");
             var item3 = linkedList.AddLast("AUEB");
+            
 
             linkedList.First!.Next!.Next!.Value = "Athens Uni of Econ and Bus";
 
             foreach (string item in linkedList)
-            { 
-            
+            {
+
                 Console.WriteLine(item);
             }
+
+            linkedList.ToList().ForEach(item => Console.WriteLine(item));
 
             // Dictionaries
 
@@ -60,28 +64,30 @@
             foreach (var keyVal in words)
             {
                 Console.WriteLine($"{keyVal.Key}, {keyVal.Value}");
-            }*/
-
-            // Sets
-           /* var myCharSet1 = new SortedSet<char>() { 'a', 'b', 'c', 'd' };
-            var myCharSet2 = new SortedSet<char>() { 'a', 'b', 'c', 'f' };
-
-            myCharSet1.Add('x');
-            myCharSet2.Remove('a');
-
-            myCharSet1.ExceptWith(myCharSet2);
-
-            foreach (char c in myCharSet1)
-            {
-                Console.Write(c + " ");
             }
 
-            myCharSet1.UnionWith(myCharSet2);
-            Console.WriteLine();
-            foreach (char c in myCharSet1)
-            {
-                Console.Write(c + " ");
-            }*/
+            
+
+            // Sets
+            /* var myCharSet1 = new SortedSet<char>() { 'a', 'b', 'c', 'd' };
+             var myCharSet2 = new SortedSet<char>() { 'a', 'b', 'c', 'f' };
+
+             myCharSet1.Add('x');
+             myCharSet2.Remove('a');
+
+             myCharSet1.ExceptWith(myCharSet2);
+
+             foreach (char c in myCharSet1)
+             {
+                 Console.Write(c + " ");
+             }
+
+             myCharSet1.UnionWith(myCharSet2);
+             Console.WriteLine();
+             foreach (char c in myCharSet1)
+             {
+                 Console.Write(c + " ");
+             }*/
 
             // Stack
             /*stack.Push("hello");

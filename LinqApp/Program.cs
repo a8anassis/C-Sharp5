@@ -71,6 +71,8 @@
                 Console.WriteLine(num);
             }
 
+            myOdds.ToList().ForEach(o => Console.WriteLine(o));
+
             List<int> evensList = (from num in numbers 
                                    where num % 2 == 0 
                                    orderby num descending

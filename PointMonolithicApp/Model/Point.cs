@@ -26,6 +26,17 @@ namespace PointMonolithicApp.Model
             return CompareTo(other) == 0;
         }
 
+        public override bool Equals(object? obj)
+        {
+            return (obj is Point other) && Equals(other);
+
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
         public override string? ToString()
         {
             return $"({X})";
@@ -138,5 +149,8 @@ namespace PointMonolithicApp.Model
             return new List<Point>(_points);
         }
 
+      
+
+        
     }
 }
